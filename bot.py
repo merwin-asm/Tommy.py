@@ -22,10 +22,9 @@ from discord.ext import commands
 from matplotlib import pyplot as plt
 
 
-# Getting the bot-token.
-token_file = open("token.txt","r")
-TOKEN = token_file.read().replace("\n","")
-token_file.close()
+
+
+TOKEN = os.environ['Token']
 
 # vars
 DB_FILE_NAME = "BOT_DB.json"
