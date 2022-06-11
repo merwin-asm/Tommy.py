@@ -1,1 +1,4 @@
-
+discord
+requests
+numpy
+matplotlib
