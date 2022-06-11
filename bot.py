@@ -22,7 +22,7 @@ from discord.ext import commands
 from matplotlib import pyplot as plt
 
 
-
+print("STARTED")
 
 TOKEN = os.environ['Token']
 
