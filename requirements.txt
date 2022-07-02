@@ -1,4 +1,4 @@
-discord
-requests
-numpy
-matplotlib
+discord.py==1.7.3
+requests==2.28.1
+numpy==1.23.0
+matplotlib==3.5.2
